@@ -1,0 +1,51 @@
+.header{
+    background-image: url(./images/background.png);
+    background: linear-gradient(285.45deg, #0B3F37 38.27%, #CB8D62 141.81%);
+    padding: 15px;
+    &__wrapper{
+        width: 1100px;
+        margin: 0 auto;
+        &__nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            &__logo{
+                padding: 0;
+                margin-bottom: 20px;
+                img{
+                    object-fit: cover;
+                }
+            }
+            &__list{
+                ul{
+                    display: flex;
+                    list-style-type: none;
+                    margin-right: 300px;
+                    padding-left: 0;
+                    padding: 0;
+
+                    a{
+                        margin-left: 45px;
+                        text-decoration: none;
+                        color: #ffffff;
+                    }
+                }
+            }
+            &__btns{
+                position: absolute;
+                top: -25px;
+                right: 0;
+                button{
+                    width: 40px;
+                    height: 60px;
+                    margin-left: 20px;
+                    border: none;
+                    background-color: #ffffff;
+                    color: #0B3F37;
+
+                }
+            }
+        }
+    }
+}
