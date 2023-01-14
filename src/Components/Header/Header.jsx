@@ -30,9 +30,9 @@ function Header() {
           </ul>
         </div>
         <div className="header__wrapper__nav__btns">
-          <button>||</button>
-          <button>||</button>
-          <button>||</button>
+          <button><i class="bi bi-heart-fill"></i></button>
+          <button><i class="bi bi-person-fill"></i></button>
+          <button><i class="bi bi-cart2"></i></button>
         </div>
       </nav>
       </div>
